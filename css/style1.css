@@ -1,0 +1,411 @@
+@media (max-width:650px) 
+{
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Noto+Sans+KR:500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+
+
+
+
+
+
+
+header{
+    background:linear-gradient(to right,#f12e48,#3d19da);
+    display: flex;
+}
+.side_bar{
+   visibility: hidden;
+   border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background:linear-gradient(to bottom,#f09114,#331504);
+    position: absolute;
+    right: 0px;
+    top: 67px;
+ width: 38%;
+height: 340px;
+text-align: center;
+}
+.button_action{
+    visibility: visible;
+}
+.div_click{
+    border: none;
+    background-color: transparent;
+    width: 20px;
+    height: auto;
+    margin: auto;
+}
+
+.side_bar ul li{
+    margin: 17px 3px;
+    list-style: none;
+}
+
+.side_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+.logo{
+    
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: auto;
+    color: #21243d;
+}
+
+
+
+.logo img{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    color: yellow;
+}
+.js_nav{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+.js_nav div{
+    margin: 5px;
+    border-radius: 50px;
+    width: 7px;
+    height: 7px;
+    background-color:#ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_button{
+    margin-left: auto;
+    float: left;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: 12px;
+    
+}
+nav{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+h3{
+    font-size: 39px;
+    color: rgb(221, 192, 192);
+}
+.nav_button button{
+    font-size: 16px;
+    border-radius: 3px;
+    height: 33px;
+    
+    width: 79px;    
+    border: none;
+    color: white;
+
+    background-color: #d62635;
+}
+
+    
+  /* designing the top_element  */
+
+.top_element{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+}
+.top_element i{
+    margin-top: 10px;
+}
+
+.top_element p{
+    margin: 10px auto;
+    letter-spacing: 2px;
+    height: 120px;
+    line-height: 25px;
+    
+}
+.top_element h4{
+    margin: 15px auto;
+    font-weight: 600;
+    font-size: 25px;
+}
+.top_element_button{
+   display: flex ;
+   margin: 15px auto;
+
+}
+.centre{
+   margin-bottom: 20px;
+    margin-top: 20px;
+}
+.centre h4{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.centre p{
+    margin-bottom: 10px;
+}
+
+
+.centre_button{
+    width: 122px;
+    height: 49px;
+    padding-bottom: 7px;
+border: none;
+font-weight: 600;
+font-size: 17px;
+color: snow;
+border-radius: 5px;
+    background-color: #527318;
+    margin: 10px 20px;
+}
+
+.centre_button i{
+    color: white;
+}
+
+
+.web_handle{
+    width: 85%;
+    margin: 10px auto;
+    text-align: center;
+   
+}
+.web_handle i{
+    color: red;
+    width: 4%;
+    margin: 5px;
+}
+
+
+.login_box_top{
+    width: 100%;
+    margin-top: 2px;
+    text-align: center;
+}
+
+
+
+.advertise{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.advertise img{
+    height: 200px;
+    width: 270px;
+}
+
+
+
+
+
+
+
+
+
+hr{
+    
+    width: 50px;
+    color: red;
+    border: none;
+    border-bottom: 5px dotted red;
+   margin:10px auto;
+
+}
+.login_box input, .login_box span{
+    display: flex;
+}
+.login_box span b{
+    font-size: 20px;
+   margin: auto;
+    width: 250px;
+text-align: center;
+
+}
+.login_box span{
+    text-align: center;
+}
+.login_box span a{
+    font-size: 18px;
+    margin:5px auto;
+     width: 250px;
+ text-decoration: none;
+ color: black;
+ }
+ .login_box span a:hover{
+     color: red;
+ }
+
+
+
+.login_box{
+    background-image: url("../media/bg.jpg");
+    background-size: cover;
+background-position: center;
+  
+    box-sizing: border-box;
+   padding-top: 15px;
+    width: 100%;
+    height: 257px;
+    border-radius: 4px;
+    margin: auto;
+
+}
+.login_box_inputs{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid brown;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+.login_button{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ca1515;
+    border-radius: 3px;
+    height: 36px;
+    width: 140px;   
+    text-align: center;
+    margin: 5px auto; 
+    border: none;
+    background-color:#feb72b;
+}
+
+
+
+
+
+
+
+.barcode{
+    height: 100px;
+    width: 100px;
+
+   margin: auto;
+   border: 2px solid black;
+}
+.barcode img{
+    height: 100%;
+    width: 100%;
+}
+
+.payment_info{
+    width: 98%;
+    margin: 5px auto;
+    text-align: center;
+}
+.payment_info span h4{
+    font-size: 25px;
+}
+.payment_logo{
+    margin: 8px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background:linear-gradient(to right,#f12e48,#3d19da);
+}
+.contact_section{
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.link_mid{
+    margin: 10px 2px;
+    display: flex;
+}
+.category{
+  padding-top: 7%;
+ height: 100px;
+width: 150px;
+margin: 2px auto;
+text-align: center;
+}
+.category i{
+    color: red;
+}
+
+.link_mid center div{
+    margin: 20px 10px;
+    width: 150px;
+}
+
+.fas{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

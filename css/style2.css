@@ -1,0 +1,373 @@
+@media (max-width:650px) {
+
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Noto+Sans+KR:500&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Baloo Da 2', cursive;
+
+    }
+
+    header {
+        background: linear-gradient(to right, #f12e48, #3d19da);
+        display: flex;
+    }
+
+    .side_bar {
+        visibility: hidden;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background: linear-gradient(to bottom, #f09114, #331504);
+        position: absolute;
+        right: 0px;
+        top: 67px;
+        width: 38%;
+        height: 340px;
+        text-align: center;
+    }
+
+    .button_action {
+        visibility: visible;
+    }
+
+    .div_click {
+        border: none;
+        background-color: transparent;
+        width: 20px;
+        height: auto;
+        margin: auto;
+    }
+
+    .side_bar ul li {
+        margin: 17px 3px;
+        list-style: none;
+    }
+
+    .side_bar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+
+
+
+    .logo {
+
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-right: auto;
+        color: #21243d;
+    }
+
+
+
+    .logo img {
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        color: yellow;
+    }
+
+    .js_nav {
+
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 10px;
+    }
+
+    .js_nav div {
+        margin: 5px;
+        border-radius: 50px;
+        width: 7px;
+        height: 7px;
+        background-color: #ff0000;
+    }
+
+    .nav_button {
+        margin-left: auto;
+        float: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 12px;
+
+    }
+
+    nav {
+        width: 200px;
+        margin: auto;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 39px;
+        color: rgb(221, 192, 192);
+    }
+
+    .nav_button button {
+        font-size: 16px;
+        border-radius: 3px;
+        height: 33px;
+
+        width: 79px;
+        border: none;
+        color: white;
+
+        background-color: #d62635;
+    }
+
+    /* form inputs */
+
+    .signup_form {
+        background-image: url("../media/bg.jpg");
+        width: 100%;
+        height: 568px;
+        margin: 30px auto;
+
+        border-radius: 5px;
+    }
+
+
+
+    .form_heading {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 24px;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .head_note{
+        color: red;
+        width: 95%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 18px;
+    }
+    .sign_up_cover {
+        padding-top: 19px;
+        width: 86%;
+        margin: auto;
+        margin-top: 10px;
+       
+    }
+
+
+
+    .name_info {
+        display: flex;
+        margin: 10px;
+    }
+
+    .name_info div {
+        margin: 0px 15px 0px 0px;
+    }
+
+    .name_info div h5 {
+        font-size: 19px;
+    }
+
+    .name_info div input {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid red;
+    }
+
+    .form_gender {
+        margin: 10px;
+    }
+
+    .form_gender span {
+        font-size: 19px;
+        width: 62px;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    .form_gender input {
+        background: transparent;
+        margin: auto;
+    }
+
+    .form_gender h5 {
+        font-size: 20px;
+        margin: 0px 0px;
+    }
+
+    .form_gender {
+        display: flex;
+         width: 385px;
+    }
+
+    .dob {
+        margin: 10px;
+        display: flex;
+    }
+
+    .dob span {
+        font-size: 19px;
+        font-weight: 600;
+        margin: 10px 0px;
+    }
+
+    .dob input {
+        margin-top: 10px;
+        margin-left: 10px;
+        background: transparent;
+        border: 1px solid red;
+        height: 30px;
+    }
+
+    .email {
+
+        margin: 10px;
+    }
+
+    .email span {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .email input {
+        background: transparent;
+        margin-left: 68px;
+        border: none;
+        border-bottom: 2px solid red;
+    }
+
+    .mobile {
+        margin: 10px 10px;
+    }
+
+    .mobile span {
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    .mobile input {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid red;
+        margin-left: 41px;
+    }
+
+    .college {
+        margin: 10px;
+        display: flex;
+    }
+
+    .college span {
+        font-size: 19px;
+
+        margin-right: 10px;
+        font-weight: 600;
+    }
+
+    .college input {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid red;
+        margin-left: 54px;
+
+    }
+
+    .Sector {
+        margin: 10px;
+        display: flex;
+    }
+
+    .Sector span {
+        font-size: 19px;
+
+        margin-right: 10px;
+        font-weight: 600;
+
+    }
+
+    .Sector input {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid red;
+        margin-left: 5px;
+
+    }
+
+    #city {
+        background-color: #d03336db;
+        border: none;
+        border-radius: 5px;
+        width: 150px;
+        height: 37px;
+        margin: 10px;
+    }
+
+
+
+    .city_heading {
+        display: inline-block;
+        width: 200px;
+        margin: 10px;
+
+        font-size: 18px;
+        color: black;
+        font-weight: 700;
+    }
+
+.form_submit{
+    margin: 15px auto;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    color: white;
+    width: 150px;
+    background-color: rgb(248, 81, 20);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+
+/* disclaimer styling  */
+
+
+.disclaimer{
+    font-size: 16px;
+    font-weight: 500;
+    width: 85%;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer styling */
+
+    footer {
+        background: linear-gradient(to right, #f12e48, #3d19da);
+    }
+
+    .contact_section {
+        width: 200px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+
+
+
+}
