@@ -27,6 +27,15 @@
         height: 340px;
         text-align: center;
     }
+hr {
+
+        width: 50px;
+        color: red;
+        border: none;
+        border-bottom: 5px dotted red;
+        margin: 10px auto;
+
+    }
 
     .button_action {
         visibility: visible;
